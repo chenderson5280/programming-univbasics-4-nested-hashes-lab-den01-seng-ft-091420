@@ -82,7 +82,7 @@ def adding_matz
 programmer_hash
 end
 
-def changing_alan
+def changing_alan alans_new_info()
   # change what Alan Kay is :known_for to the value of the alans_new_info variable.
   # return the entire updated hash
 
@@ -101,7 +101,7 @@ def changing_alan
         :languages => ["C"]
       }
     }
-
+programmer_hash[:alan_kay][:known_for] = alans_new_info
 end
 
 def adding_to_dennis
